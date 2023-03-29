@@ -60,7 +60,7 @@ function registrarProducto(e) {
             .then(respuesta => {
 
                 formulario.reset();
-                window.location.href = "/AluraShop/productos.html";
+                window.location.href = "/Alurageek/productos.html";
 
             })
             .catch(error => console.log(error))
